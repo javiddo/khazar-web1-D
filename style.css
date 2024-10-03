@@ -42,7 +42,7 @@ div{
     text-align: justify;
     font-size: small;
     a{
-        color: red;
+        color: green;
     }
 }
 .content .right{width: 15%; float: left;}
