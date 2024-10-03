@@ -1,0 +1,33 @@
+.menu{
+    background-color: lightgrey;
+    font-size: 12px;
+    font-family: Tahoma;
+    padding: 2px;
+}
+.menu li{
+    display: inline-block;
+    width: 100px;
+    background-color: gray;
+    padding: 5px 10px;
+    position: relative;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.submenu{
+    display: none;
+}
+ul li.nested:hover > .submenu{
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+}
+ul li.nested:hover > .submenu .submenu{
+    top: 0;
+    left: 120px;
+}
