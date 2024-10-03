@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        div{
+            background-color: yellow;
+        }
+        p{
+            background-color: aqua;
+        }
+        #register{
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <div style="color: green;">
+        <form method="POST">
+            <input type="hidden" value="group_b">
+            <p>
+                <label>Login: </label>
+                <input type="text" name="username" placeholder="E.g. john">
+            </p>
+            <p>
+                <label>Password: </label>
+                <input name="pass" type="password">
+            </p>
+            <p>
+                <label>Age: </label>
+                <input name="my_age" type="number" value="25">
+            </p>
+            <p>
+                <input type="file">
+            </p>
+            <p>
+                <button>OK</button>
+<!--                <input type="submit" value="Confirm">-->
+            </p>
+        </form>
+    </div>
+</body>
+</html>
